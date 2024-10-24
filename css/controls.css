@@ -145,6 +145,13 @@
   border-radius: 56px;
 }
 
+.custom-button-flat.round-large {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 10px;
+  border-radius: 56px;
+}
+
 .custom-button-flat.small {
   font-size: 14px;
   line-height: 14px;
@@ -170,6 +177,16 @@
 .custom-button-flat.large img {
   width: 24px;
   height: 24px;
+}
+
+.custom-button-flat.round-large img {
+  width: 40px;
+  height: 40px;
+}
+
+.custom-button-flat.round-large img.round-prop-area {
+  width: 28px;
+  height: 28px;
 }
 
 .custom-button-flat span {

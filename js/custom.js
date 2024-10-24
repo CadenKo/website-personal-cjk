@@ -2,6 +2,18 @@
  * Your custom JS file
  *************************************************************************/
 
+
+
+
+function copyText() {
+  // Get the text field
+  navigator.clipboard.writeText('@plaskit');
+  // Alert the copied text
+  alert("Copied text!");
+}
+
+
+
 (function () {
   "use strict";
 
@@ -16,6 +28,8 @@
    * @param {string} credit - the credit of the photo.
    * @returns {Object} - a jQuery DOM object.
    */
+  
+
   function createMasonryItemHTML(caption, imageSrc, credit) {
     // This is a hack for Firefox, since Firefox does not respect the CSS "break-inside" and "page-break-inside"
     // We have to set the CSS display to "inline-flex" to prevent Firefox from breaking the figure in the middle
